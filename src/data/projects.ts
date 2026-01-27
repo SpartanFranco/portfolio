@@ -14,7 +14,7 @@ export const projects = [
 			'A Tesla-inspired online store web application where users can browse and purchase products (such as clothing and accessories) organized by categories (men, women, children), with a visual product catalog and shopping cart. It is built with modern technologies to provide a complete e-commerce experience.',
 		image: '/teslo-shop.png',
 		align: 'left',
-		view: 'https://teslo-shop-by-geovani.vercel.app/',
+		view: 'https://teslo-shop-five-red.vercel.app/',
 		repo: 'https://github.com/SpartanFranco/teslo-shop',
 	},
 ];
