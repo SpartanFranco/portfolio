@@ -8,7 +8,7 @@ import { ContactSection } from '@/components/contact-section';
 
 const App = () => {
 	return (
-		<div className='relative min-h-screen w-full bg-[#0a0118]'>
+		<div className='relative min-h-screen w-full'>
 			<Header />
 			<main className='object-contain'>
 				<HeroSection />

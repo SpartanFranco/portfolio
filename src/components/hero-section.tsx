@@ -7,12 +7,13 @@ export function HeroSection() {
 			<div className='container mx-auto max-w-6xl'>
 				<div className='flex flex-col items-center gap-12 lg:flex-row'>
 					<div className='relative'>
-						<div className='absolute inset-0 rounded-full bg-purple-600/50 blur-[80px]' />
-						<div className='relative flex h-64 w-64 items-center justify-center rounded-3xl border border-purple-500/30 bg-linear-to-br from-purple-900/40 to-transparent'>
-							<div className='text-8xl'>👨‍💻</div>
-						</div>
-					</div>
+						<img
+							src='me2.png'
+							className='h-100 w-[16rem] object-cover md:h-170 md:w-100'
+						/>
 
+						<div className='from-background pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-linear-to-t to-transparent' />
+					</div>
 					<div className='flex-1 text-center lg:text-left'>
 						<p className='mb-4 text-gray-400'>
 							Hello! I Am{' '}
